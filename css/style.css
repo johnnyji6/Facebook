@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.left {
+    width: 40%;
+    background-color: red;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.caja1 {
+    margin-top: 10%;
+    float: left;
+}
+
+.left span {
+    font-size: 28px;
+    font-family: Helvetica, Arial, sans-serif;
+    ;
+}
+
+
+.right {
+    margin-left: 57%;
+    margin-right: 11%;
+}
+
+.caja2 {
+    margin-top: 10%;
+    margin-left: 15%;
+    float: left;
+}
+
+.cb {
+    clear: both;
+}
+
+fieldset {
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.widthchart {
+    width: 99%;
+    height: 50px;
+    margin-top: 3%;
+    border-radius: 5px;
+    border: 1px solid #dddfe2;
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.widthchart:focus {
+    outline: none;
+    border-color: #166fe5;
+}
+
+input[type="email"], input[type="password"] {
+    box-sizing: border-box;
+    margin: 8px 0;
+    padding: 12px 20px;
+    width: 100%;
+    caret-color: #166fe5;
+}
+
+.hover {
+    width: 99%;
+    height: 50px;
+    font-size: 20px;
+    background-color: #166fe5;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+
+.hover:hover {
+    cursor: pointer;
+}
+
+.enlace {
+    box-sizing: content-box;
+    text-decoration: none;
+    margin-left: 23%;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #166fe5;
+}
+
+.enlace:hover{
+    text-decoration: underline;
+}
+
+.linea {
+    border-bottom: solid 1px #dadde1;
+}
+
+.sesion {
+    width: 50%;
+    height: 50px;
+    font-size: 16px;
+    margin-left: 24%;
+    background-color: #36a420;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+
+.sesion:hover {
+    cursor: pointer;
+}
+
+.texto {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.negro:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
